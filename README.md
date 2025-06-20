@@ -135,7 +135,8 @@ E acompanhar os logs:
 docker-compose logs -f
 ```
 
-A API estará acessível em [http://localhost:8000](https://www.google.com/search?q=http://localhost:8000).
+A API estará acessível em [http://localhost:800](http://localhost:8000), 
+porém o swagger está acessível em [http://localhost:8000/docs](http://localhost:8000/docs).
 
 O banco de dados será inicializado com as tabelas, o usuário admin e clientes (se incluído no `init.sql`) 
 automaticamente na primeira vez que o serviço `db` for iniciado com um volume de dados vazio.
