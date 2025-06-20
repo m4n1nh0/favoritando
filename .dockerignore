@@ -1,0 +1,8 @@
+.venv
+.env
+.env.example
+.gitignore
+Dockerfile
+htmlcov/
+.coverage
+.coverage.*
